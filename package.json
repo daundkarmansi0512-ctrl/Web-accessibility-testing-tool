@@ -1,0 +1,19 @@
+{
+  "name": "playwright-selector-classifier",
+  "version": "1.0.0",
+  "description": "Collect elements and classify them by which selector methods match them on a given website",
+  "main": "index.js",
+  "scripts": {
+    "install-playwright": "npx playwright install --with-deps",
+    "run": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "axe-core": "^4.11.2",
+    "playwright": "^1.56.1",
+    "pretty": "^2.0.0"
+  },
+  "keywords": []
+}
